@@ -1,6 +1,6 @@
-/* ---------- ZÁKLAD ---------- */
+
 * {
-    box-sizing: border-box;   /* padding sa započíta do šírky, nič nepretečie */
+    box-sizing: border-box;
 }
 
 body {
@@ -13,11 +13,9 @@ body {
 a {
     text-decoration: none;
 }
-
-/* ---------- HLAVIČKA (mobil: všetko pod sebou) ---------- */
 .hlavicka {
     display: flex;
-    flex-wrap: wrap;            /* prvky sa zalomia, keď nie je miesto */
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     gap: 10px 30px;
